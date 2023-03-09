@@ -1,0 +1,27 @@
+@mixin robotoThin {
+    font-family: 'Roboto Thin', sans-serif;
+}
+
+@mixin robotoLight {
+    font-family: 'Roboto Light', sans-serif;
+}
+
+@mixin robotoRegular {
+    font-family: 'Roboto Regular', sans-serif;
+}
+
+@mixin robotoMedium {
+    font-family: 'Roboto Medium', sans-serif;
+}
+
+@mixin robotoBold {
+    font-family: 'Roboto Bold', sans-serif;
+}
+
+@mixin playfairRegular {
+    font-family: 'Playfair Display Regular', sans-serif;
+}
+
+@mixin playfairBold {
+    font-family: 'Playfair Display Bold', sans-serif;
+}

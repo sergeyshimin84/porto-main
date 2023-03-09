@@ -1,0 +1,49 @@
+//******************* ШРИФТЫ ***********************
+.roboto-thin {
+    @include robotoThin;
+}
+.roboto-light {
+    @include robotoLight;
+}
+.roboto-reguler {
+    @include robotoRegular;
+}
+.roboto-medium {
+    @include robotoMedium;
+}
+.roboto-bold {
+    @include robotoBold;
+}
+
+.playfair-regular {
+    @include playfairRegular;
+}
+
+.playfair-bold {
+    @include playfairBold;
+}
+
+//******************* BODY ***********************
+body {
+    @include robotoRegular;
+    margin: 0;
+}
+
+//******************* LINKS ***********************
+a {
+    text-decoration: none;
+}
+
+//******************* BUTTONS ***********************
+button {
+    outline: none;
+    border: none;
+}
+//******************* UL LI ***********************
+ul {
+    padding: 0;
+    margin: 0;
+}
+li {
+    list-style-type: none;
+}
