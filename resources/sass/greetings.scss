@@ -1,17 +1,20 @@
-*{
+* {
     box-sizing: border-box;
 }
-a{
+
+a {
     text-decoration: none;
     display: inline-block;
 }
+
 ul,
-li{
+li {
     list-style: none;
     margin: 0;
     padding: 0;
 }
-button{
+
+button {
     padding: 0;
     border: none;
     font: inherit;
@@ -20,7 +23,7 @@ button{
     cursor: pointer;
 }
 
-.greetings__container{
+.greetings__container {
     max-width: 1324px;
     height: 202px;
     margin: 0 auto;
@@ -28,17 +31,17 @@ button{
     grid-template-columns: 470px 854px;
 }
 
-.greetings__img{
+.greetings__img {
     padding: 37px 21px 5px 21px;
 }
 
-.greetings__txt{
+.greetings__txt {
     padding: 96px 112px 95px 111px;
     /* font-family: 'roboto';
     font-variation-settings: "wght" 500; */
 }
 
-.greetings__txt__h1{
+.greetings__txt__h1 {
     font-family: 'Playfair Display';
     font-size: 48px;
     font-weight: 500;
@@ -47,7 +50,7 @@ button{
     text-align: left;
 }
 
-.reetings__txt__h2{
+.reetings__txt__h2 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -55,7 +58,7 @@ button{
     line-height: 38px;
 }
 
-.reetings__txt__p{
+.reetings__txt__p {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -63,7 +66,4 @@ button{
     line-height: 150%;
 }
 
-body{
-
-}
-
+body {}
