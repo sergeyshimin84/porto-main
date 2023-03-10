@@ -1,4 +1,27 @@
-@import 'app';
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+}
 
 .greetings__container {
     max-width: 1324px;
@@ -14,6 +37,8 @@
 
 .greetings__txt {
     padding: 96px 112px 95px 111px;
+    /* font-family: 'roboto';
+    font-variation-settings: "wght" 500; */
 }
 
 .greetings__txt__h1 {
